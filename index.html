@@ -1156,13 +1156,16 @@
                   <div class="column is-full-width">
                     <div id="bibtex-section" class="column has-text-left bibtex-section">
                       <h2 class="title is-4">BibTeX</h2>
-                      <pre>
-                    @inproceedings{liao2024baton,
-                      title={BATON: Aligning Text-to-Audio Model with Human Preference Feedback},
-                      author={Liao, Huan and Han, Haonan and Yang, Kai and Du, Tianjiao and Yang, Rui and Xu, Zunnan and Xu, Qinmei and Liu, Jingquan and Lu, Jiasheng and Li, Xiu},
-                      booktitle={IJCAI 2024}
-                    }
-                      </pre>
+                      <div style="position: relative;">
+                        <button onclick="copyBibtex()" style="position: absolute; right: 0; top: 0;">Copy</button>
+                        <pre id="bibtex-content" style="text-align: left; white-space: pre-wrap;">
+            @inproceedings{liao2024baton,
+              title={BATON: Aligning Text-to-Audio Model with Human Preference Feedback},
+              author={Liao, Huan and Han, Haonan and Yang, Kai and Du, Tianjiao and Yang, Rui and Xu, Zunnan and Xu, Qinmei and Liu, Jingquan and Lu, Jiasheng and Li, Xiu},
+              booktitle={IJCAI 2024}
+            }
+                        </pre>
+                      </div>
                     </div>
                   </div>
                 </div>
